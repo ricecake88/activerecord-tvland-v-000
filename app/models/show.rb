@@ -4,4 +4,7 @@ class Show < ActiveRecord::Base
 
   def build_network(attributes)
   end
+
+  def network
+  end
 end
