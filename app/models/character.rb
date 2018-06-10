@@ -7,7 +7,6 @@ class Character < ActiveRecord::Base
   end
 
   def build_show(attributes)
-    binding.pry
-    Network.new(attributes)
+    Show.new(attributes)
   end
 end
