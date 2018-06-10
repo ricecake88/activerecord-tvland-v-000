@@ -6,7 +6,7 @@ class Character < ActiveRecord::Base
     "#{self.name}" + " always says: " + "#{self.catchphrase}"
   end
 
-  def build_network(attributes)
+  def build_show(attributes)
     binding.pry
     Network.new(attributes)
   end
